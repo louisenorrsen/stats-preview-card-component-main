@@ -38,7 +38,7 @@ main {
 }
 
 .overlay {
-    background-color: hsl(277, 74%, 25%);
+    background-color: var(--soft-violet);
     position: absolute;
     top: 0;
     opacity: .7;
@@ -135,5 +135,9 @@ main {
         flex-direction: row;
         gap: 63px;
         margin: 0 147px 59px 71.5px;
+    }
+
+    .headers {
+        margin-bottom: 2px;
     }
 }
