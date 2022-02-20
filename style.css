@@ -41,7 +41,8 @@ main {
     background-color: var(--soft-violet);
     position: absolute;
     top: 0;
-    opacity: .7;
+    mix-blend-mode: multiply;
+    opacity: 0.79;
     width: 327px;
     height: 240px;
 }
