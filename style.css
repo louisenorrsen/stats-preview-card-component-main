@@ -28,23 +28,23 @@ main {
     border-radius: 8px;
 }
 
-.hero--img {
-    width: 327px;
-    border-radius: 8px 8px 0 0;
+#desktop {
+    display: none;
+}
+#mobile {
+    display: block;
 }
 
-.hero {
-    position: relative;
+.hero--img {
+    mix-blend-mode: multiply;
+    opacity: 0.79;    
 }
 
 .overlay {
-    background-color: var(--soft-violet);
-    position: absolute;
-    top: 0;
-    mix-blend-mode: multiply;
-    opacity: 0.79;
     width: 327px;
     height: 240px;
+    background-color: var(--soft-violet);
+    border-radius: 8px 8px 0 0;
 }
 
 .header {
@@ -118,6 +118,13 @@ main {
         height: 446px;
         border-radius: 0 8px 8px 0;
         object-fit: cover;
+    }
+
+    #mobile {
+        display: none;
+    }
+    #desktop {
+        display: block;
     }
 
     .content {
